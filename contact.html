@@ -1,0 +1,105 @@
+<!DOCTYPE html> <!--chiemstra3609@conestogac.on.ca Caleb Hiemstra-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, learning">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Assignment 3 Caleb</title>
+</head>
+<body>
+  <header>
+    <h1>Assignment 3 Webpage</h1>
+    <a href="#" class="logo">Logo</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <aside>
+    <h2>List Heading</h2>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </aside>
+
+  <main>
+    <h2>Main Heading</h2>
+
+    <form id="myForm">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div>
+          <label for="employment-status">Employment Status:</label>
+          <select id="employment-status" name="employment-status" required>
+            <option value="" disabled selected>Select Option</option>
+            <option value="student">Student</option>
+            <option value="employed-full-time">Employed Full-time</option>
+            <option value="employed-part-time">Employed Part-time</option>
+            <option value="retired">Retired</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>How did you hear about our site?</legend>
+        <div>
+          <label><input type="radio" name="how-heard" value="social-media">Social Media</label>
+        </div>
+        <div>
+          <label><input type="radio" name="how-heard" value="friend">Friend</label>
+        </div>
+        <div>
+          <label><input type="radio" name="how-heard" value="search-engine">Search Engine</label>
+        </div>
+        <div>
+          <label><input type="radio" name="how-heard" value="other">Other</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Tell Us what you think!</legend>
+        <div>
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" rows="4"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Submit</legend>
+        <div>
+          <label><input type="checkbox" name="not-robot" required>I am not a robot.</label>
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </div>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Caleb Hiemstra - Student ID: 8713609</p>
+  </footer>
+</body>
+</html>
