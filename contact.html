@@ -7,12 +7,12 @@
     <meta name="keywords" content="html, css, learning">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Assignment 3 Caleb</title>
+    <title>Assignment-3 Caleb</title>
 </head>
 <body>
   <header>
     <h1>Assignment 3 Webpage</h1>
-    <a href="#" class="logo">Logo</a>
+    <img src="images/logo.jpg" alt="Logo" class="logo">
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -33,12 +33,12 @@
   <main>
     <h2>Main Heading</h2>
 
-    <form id="myForm">
+    <form id="myForm" autocomplete="on">
       <fieldset>
         <legend>Personal Information</legend>
         <div>
           <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
+          <input type="text" id="name" name="name" required autofocus>
         </div>
         <div>
           <label for="email">Email:</label>
@@ -46,7 +46,7 @@
         </div>
         <div>
           <label for="phone">Phone:</label>
-          <input type="tel" id="phone" name="phone" required>
+          <input type="tel" id="phone" name="phone">
         </div>
         <div>
           <label for="employment-status">Employment Status:</label>
@@ -81,7 +81,7 @@
         <legend>Tell Us what you think!</legend>
         <div>
           <label for="comments">Comments:</label>
-          <textarea id="comments" name="comments" rows="4"></textarea>
+          <textarea id="comments" name="comments" rows="4" placeholder="Please tell us how we did"></textarea>
         </div>
       </fieldset>
 

@@ -17,9 +17,8 @@ header h1 {
 }
 
 .logo {
-  display: block;
-  text-decoration: none;
-  color: #fff;
+  width: 200px;
+  height: auto;
   margin: 10px 0;
 }
 
@@ -126,7 +125,7 @@ input[type="email"],
 input[type="tel"],
 select,
 textarea {
-  width: 100%;
+  width: 90%;
   padding: 8px;
   margin-top: 4px;
   border: 1px solid #ccc;
@@ -156,7 +155,6 @@ textarea {
   resize: vertical;
 }
 
-/* Form validation styles */
 input:required:invalid,
 select:required:invalid,
 textarea:required:invalid {
